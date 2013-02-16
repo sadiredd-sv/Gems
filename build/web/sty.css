@@ -1,0 +1,40 @@
+
+
+body {
+    font-size:10pt;
+    margin:0px;
+    font-family:verdana;
+}
+h1 {
+    background-color:#82CAFA;
+    color:black;
+    font:700 20pt arial;
+    margin:0px;
+}
+a
+{
+    color:black;
+}
+.header
+{
+  background-color:olive;
+  color:white;
+  font-weight:700;
+}
+
+h2 {
+    color:black;
+    font:700 18pt arial;
+}
+
+h3 {
+    color:black;
+    font:700 12pt arial;
+}
+td
+{
+    color:black;
+    font:700 12pt arial;
+}
+
+

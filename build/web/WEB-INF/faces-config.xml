@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+
+<faces-config version="1.2" 
+    xmlns="http://java.sun.com/xml/ns/javaee" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd">
+    <managed-bean>
+        <managed-bean-name>User</managed-bean-name>
+        <managed-bean-class>beans.User</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <navigation-rule>
+        <description></description>
+        <from-view-id>/index.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/abc.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <description></description>
+        <from-view-id>/login.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>manager</from-outcome>
+            <to-view-id>/mind.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>employee</from-outcome>
+            <to-view-id>/index.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>notvalid</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <description></description>
+        <from-view-id>/changepwd.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>changed</from-outcome>
+            <to-view-id>/changepwdfinal1.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>notchanged</from-outcome>
+            <to-view-id>/changepwdfinal2.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <managed-bean>
+        <managed-bean-name>EmployeeBean</managed-bean-name>
+        <managed-bean-class>beans.EmployeeBean</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>TimeBean</managed-bean-name>
+        <managed-bean-class>beans.TimeBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>Check</managed-bean-name>
+        <managed-bean-class>beans.Check</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>dixcy</managed-bean-name>
+        <managed-bean-class>beans.dixcy</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <navigation-rule>
+        <description></description>
+        <from-view-id>/abc.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>deleted</from-outcome>
+            <to-view-id>/index.jsp</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+</faces-config>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="index.jsp" x="400" y="150" zoom="true"/>
+        <Node id="touser.jsp" x="150" y="450" zoom="true"/>
+        <Node id="logou.jsp" x="400" y="450" zoom="true"/>
+        <Node id="abc.jsp" x="400" y="600" zoom="true"/>
+        <Node id="mind.jsp" x="150" y="300" zoom="true"/>
+        <Node id="welcomeJSF.jsp" x="150" y="150" zoom="true"/>
+        <Node id="changepwd.jsp" x="1150" y="150" zoom="true"/>
+        <Node id="addemployee.jsp" x="650" y="300" zoom="true"/>
+        <Node id="changepwdfinal1.jsp" x="900" y="150" zoom="true"/>
+        <Node id="Employees.jsp" x="900" y="450" zoom="true"/>
+        <Node id="recent.jsp" x="150" y="900" zoom="true"/>
+        <Node id="login.jsp" x="400" y="300" zoom="true"/>
+        <Node id="addemployeefinal.jsp" x="150" y="600" zoom="true"/>
+        <Node id="toall.jsp" x="650" y="150" zoom="true"/>
+        <Node id="changepwdfinal2.jsp" x="650" y="450" zoom="true"/>
+        <Node id="searched.jsp" x="900" y="300" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>
